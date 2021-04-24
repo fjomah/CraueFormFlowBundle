@@ -1,0 +1,57 @@
+{
+	"name": "craue/formflow-bundle",
+	"type": "symfony-bundle",
+	"description": "Multi-step forms for your Symfony project.",
+	"keywords": ["form", "wizard", "step", "symfony"],
+	"homepage": "https://github.com/craue/CraueFormFlowBundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Raue",
+			"email": "christian.raue@gmail.com"
+		},
+		{
+			"name": "Symfony Community",
+			"homepage": "https://github.com/craue/CraueFormFlowBundle/contributors"
+		}
+	],
+	"require": {
+		"php": "^7.3|^8",
+		"symfony/config": "~3.4|~4.4|~5.1",
+		"symfony/dependency-injection": "~3.4|~4.4|~5.1",
+		"symfony/event-dispatcher": "~3.4|~4.4|~5.1",
+		"symfony/form": "~3.4|~4.4|~5.1",
+		"symfony/http-foundation": "~3.4|~4.4|~5.1",
+		"symfony/http-kernel": "~3.4|~4.4|~5.1",
+		"symfony/options-resolver": "~3.4|~4.4|~5.1",
+		"symfony/security-core": "~3.4|~4.4|~5.1",
+		"symfony/translation": "~3.4|~4.4|~5.1",
+		"symfony/validator": "~3.4|~4.4|~5.1",
+		"symfony/yaml": "~3.4|~4.4|~5.1"
+	},
+	"require-dev": {
+		"craue/translations-tests": "^1.1",
+		"doctrine/common": "~2.7|~3.0",
+		"doctrine/doctrine-bundle": "~1.10|~2.0",
+		"phpunit/phpunit": "^9.4",
+		"symfony/phpunit-bridge": "^5.2",
+		"symfony/symfony": "~3.4.23|~4.4|~5.1"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Craue\\FormFlowBundle\\": ""
+		},
+		"exclude-from-classmap": [
+			"/Tests/"
+		]
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "3.4.x-dev"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
